@@ -1,4 +1,4 @@
-# <img src="https://github.com/MAKnova/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning
+# <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning
 
 ## Overview
 
@@ -91,7 +91,7 @@ The **PyroDetect** model integrates:
 ### Visuals
 
 1. **Confusion Matrix**  
-   ![Confusion Matrix](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Confusion%20Matrix.png)
+   ![Confusion Matrix](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png)
 
 2. **Training Accuracy**  
    ![Training Accuracy](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Training%20Accuracy.png)
@@ -100,7 +100,7 @@ The **PyroDetect** model integrates:
    ![Training Loss](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Training%20Loss.png)
 
 4. **ROC Curve**  
-   ![ROC Curve](https://github.com/MAKnova/PyroDetect/blob/main/Resources/ROC%20Curve.png)
+   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC%20Curve.png)
 
 ---
 
