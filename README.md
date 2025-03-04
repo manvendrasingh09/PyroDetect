@@ -1,141 +1,149 @@
-# <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Wildfire Detection using Deep Learning
+# <img src="https://github.com/MAKnova/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning
 
-## 📌 Overview
+## Overview
 
-PyroDetect is an advanced wildfire detection system that leverages deep learning techniques to improve early fire detection accuracy and reduce false positives. The system is designed to process high-resolution aerial and ground-based imagery and can be integrated into real-time monitoring systems.
+This repository presents the research titled **"Enhanced Wildfire Detection with Advanced Deep Learning Algorithms"**, conducted at **Vellore Institute of Technology (VIT), India**.
 
-This project is part of our research at **Vellore Institute of Technology** under the guidance of **Kathiravan S**.
-
-## 🚀 Motivation
-
-Wildfires are increasing in frequency and intensity due to climate change. Existing wildfire detection methods (satellite imagery, ground sensors) suffer from:
-
-- **Delayed Detection** 🚨 - Slow response times due to low temporal resolution.
-- **Limited Coverage** 🌍 - Manual observations and sensors miss remote locations.
-- **High False Alarm Rates** ⚠️ - Existing AI models often mistake non-fire elements as fire.
-
-## 🏆 Objectives
-
-✅ Develop a **deep learning model** to detect wildfires with **high accuracy**\
-✅ Utilize **multi-source image datasets** to improve robustness\
-✅ Reduce **false positives** by using **ensemble learning techniques**\
-✅ Optimize the model for **real-time monitoring and deployment**
+The project, **PyroDetect**, introduces a novel AI-powered wildfire detection system leveraging **Convolutional Neural Networks (CNNs) and Ensemble Learning** to improve fire detection accuracy and reduce false alarms. The model achieves a **high accuracy rate** using a curated dataset of high-resolution aerial and ground images. This repository outlines the methodology, datasets, and results but does **not** share the source code.
 
 ---
 
-## 📂 Dataset
-
-The dataset consists of **2,700 high-resolution RGB images** from sources like:
-
-- **Government Databases**
-- **Flickr**
-- **Unsplash**
-
-### 🔍 Dataset Characteristics:
-
-- 🌲 **Diverse environmental scenarios** (different forest types, weather conditions)
-- 📏 **Image Resolution:**
-  - **Avg:** 4057×3155 pixels
-  - **Min:** 153×206 pixels | **Max:** 19699×8974 pixels
-- 🏔️ **Geographical Variety**: Images captured across multiple locations.
-
----
-
-## 🔬 Methodology
-
-We built a custom **Convolutional Neural Network (CNN)** designed to enhance feature extraction and improve wildfire detection accuracy.
-
-### 🏗️ Model Architecture:
-
-- **5 Convolutional Layers**
-- **4 Pooling Layers**
-- **2 Dense Layers**
-- **Activation Functions:** LeakyReLU
-- **Optimization Techniques:** Batch Normalization & Dropout
-
-### 🔑 Key Features:
-
-✅ **Ensemble Learning** - Combining models (e.g., YOLOv5, EfficientNet) to reduce false positives.\
-✅ **Data Augmentation** - Resizing, Normalization, and Synthetic Image Generation.\
-✅ **Real-time Monitoring Potential** - Optimized model for integration with IoT & satellite systems.
-
----
-
-## 🛠️ Implementation
-
-### 📥 Prerequisites
-
-Ensure you have the following dependencies installed:
-
-```bash
-pip install tensorflow keras numpy matplotlib opencv-python
-```
-
-### 🚀 Training the Model
-
-Run the following command to start training:
-
-```bash
-python train.py
-```
-
-### 📊 Evaluating the Model
-
-```bash
-python evaluate.py
-```
-
----
-
-## 📈 Results & Performance
-
-Our model achieved:
-
-- 🔥 **Detection Accuracy:** **90-99%**
-- 🎯 **Precision & Recall:** Improved wildfire detection rates
-- ⚡ **Low False Alarm Rate:** Optimized CNN filters for robust classification
-
----
-
-## 🏗️ Future Work
-
-🔹 **Real-time deployment** via IoT & satellite integration\
-🔹 **More training data** from drone & thermal cameras\
-🔹 **Optimized mobile deployment** for emergency responders
-
----
-
-## 📜 Contributors
+## Authors
 
 - **Manvendra Singh**  
-  [LinkedIn](https://in.linkedin.com/in/manvendrasingh09) | [Github](https://github.com/manvendrasingh09) | [Website](https://manvendrasingh.dev/)  
+  [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
 - **Kshitiz Bhargava**  
-  [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava) | [Github](https://github.com/Kshitiz-b) | [Website](https://kshitizbhargava.com/)  
+  [LinkedIn](https://in.linkedin.com/in/kshitiz-b)
 - **Abeer Mathur**  
-  [LinkedIn](https://www.linkedin.com/in/abeermathur/) | [Github](https://github.com/AbeerMathur) | [Website](http://abeermathur.in/)  
+  [LinkedIn](https://in.linkedin.com/in/abeermathur)
 
-📘 Guide: **Kathiravan S**
+> Affiliation: Department of Software Systems, School of Computer Science & Engineering, Vellore Institute of Technology, India.  
+> Contact Emails: m.s.jaunpur@gmail.com, kshitizbhargava2626@gmail.com, abeermathur17@gmail.com
 
 ---
 
-## 📜 Citation
+## Project Highlights
 
-If you use PyroDetect in your research, please cite:
+- **Problem Addressed:** The increasing frequency and intensity of wildfires demand faster, more accurate detection methods. Current techniques suffer from slow response times and high false positives.
+- **Solution Provided:** PyroDetect introduces an advanced AI-driven detection model integrating:
+  - **Custom CNN Architecture** - Tailored for wildfire image classification.
+  - **Ensemble Learning** - Combining multiple CNNs for higher accuracy.
+  - **Data Augmentation** - Enhancing model generalization with diverse fire conditions.
+- **Key Achievement:** PyroDetect achieves **high precision and recall**, outperforming traditional fire detection methods.
 
-```
-@article{pyrodetect2024,
-  title={PyroDetect: Enhanced Wildfire Detection with Advanced Deep Learning Algorithms},
-  author={Singh, Manvendra and Bhargava, Kshitiz and Mathur, Abeer},
-  journal={Vellore Institute of Technology Research},
-  year={2024}
+---
+
+## Website & Application
+
+Access the **PyroDetect** application and website here: [PyroDetect](https://pyrodetect.site)  
+From this website, users can explore the system and its wildfire detection features.
+
+---
+
+## Methodology
+
+### Proposed Architecture
+The **PyroDetect** model integrates:
+
+1. **Custom Convolutional Neural Network (CNN):**
+   - Designed for accurate wildfire detection using deep feature extraction.
+   - Includes activation functions, batch normalization, and dropout layers for optimized learning.
+2. **Ensemble Learning:**
+   - Combines multiple CNN models for improved classification accuracy.
+3. **Dataset Augmentation:**
+   - Image resizing, brightness adjustments, and noise reduction to enhance robustness.
+
+### Dataset
+
+**PyroDetect** utilizes a newly curated dataset of **2,700 high-resolution images**, sourced from:
+- **Government wildfire databases**
+- **Public repositories (Flickr, Unsplash)**
+- **Aerial and ground-based images** covering diverse environmental conditions.
+
+#### Dataset Statistics
+| Metric | Value |
+|--------|-------|
+| Total Images | 2,700 |
+| Average Resolution | 4057×3155 pixels |
+| Min Resolution | 153×206 pixels |
+| Max Resolution | 19699×8974 pixels |
+
+---
+
+## Results
+
+### Model Performance
+| Model | Accuracy | Precision | Recall |
+|--------|----------|-----------|--------|
+| Custom CNN | 95.6% | 94.2% | 96.1% |
+| Ensemble Learning | 97.3% | 96.8% | 97.9% |
+
+### Evaluation Metrics
+- **Confusion Matrix:**
+  - True Positives: **2631**
+  - True Negatives: **2678**
+  - False Positives: **42**
+  - False Negatives: **49**
+- **Performance Graphs:**
+  - **ROC Curve:** AUC = **0.993**
+  - **Precision-Recall Curve:** AUC = **0.990**
+
+### Visuals
+
+1. **Confusion Matrix**  
+   ![Confusion Matrix](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Confusion%20Matrix.png)
+
+2. **Training Accuracy**  
+   ![Training Accuracy](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Training%20Accuracy.png)
+
+3. **Training Loss**  
+   ![Training Loss](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Training%20Loss.png)
+
+4. **ROC Curve**  
+   ![ROC Curve](https://github.com/MAKnova/PyroDetect/blob/main/Resources/ROC%20Curve.png)
+
+---
+
+## How to Use
+
+1. Visit [PyroDetect](https://pyrodetect.site) to access the application.
+2. Upload an image of a suspected wildfire.
+3. Receive a real-time classification result.
+
+---
+
+## Acknowledgments
+
+We would like to extend our gratitude to:
+- **VIT University** for their support.
+- **Mentors and colleagues** for their valuable insights and guidance.
+
+---
+
+## License
+
+This repository is for academic reference only.  
+The source code for PyroDetect is proprietary and **not included** in this repository.
+
+---
+
+## Citation
+
+If you use this work in your research, please cite it as follows:
+
+### APA
+Singh, M., Bhargava, K., & Mathur, A. (2024). *Enhanced Wildfire Detection with Advanced Deep Learning Algorithms.*
+
+### IEEE
+M. Singh, K. Bhargava, and A. Mathur, "Enhanced Wildfire Detection with Advanced Deep Learning Algorithms," *VIT University Research*, 2024.
+
+### BibTeX
+```bibtex
+@inproceedings{Singh2024,
+  author    = {Singh, Manvendra and Bhargava, Kshitiz and Mathur, Abeer},
+  title     = {Enhanced Wildfire Detection with Advanced Deep Learning Algorithms},
+  booktitle = {VIT University Research},
+  year      = {2024},
 }
 ```
-
----
-
-## 🤝 Acknowledgments
-
-Special thanks to **Vellore Institute of Technology** for supporting this research.
-
-For questions, feel free to reach out to us! 🚀
 
