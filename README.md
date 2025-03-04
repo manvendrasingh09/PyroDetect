@@ -109,9 +109,9 @@ Our model achieved:
 
 ## 📜 Contributors
 
-👨‍💻 **Manvendra Singh** | 21BCE0201\
-👨‍💻 **Kshitiz Bhargava** | 21BCE2067\
-👨‍💻 **Abeer Mathur** | 21BCE3630
+👨‍💻 **Manvendra Singh**
+👨‍💻 **Kshitiz Bhargava**
+👨‍💻 **Abeer Mathur**
 
 📘 Guide: **Kathiravan S**
 
@@ -136,5 +136,5 @@ If you use PyroDetect in your research, please cite:
 
 Special thanks to **Vellore Institute of Technology** for supporting this research.
 
-For questions, feel free to **open an issue** or reach out to us! 🚀
+For questions, feel free to reach out to us! 🚀
 
