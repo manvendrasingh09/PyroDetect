@@ -4,7 +4,7 @@
 
 This repository presents the research titled **"Enhanced Wildfire Detection with Advanced Deep Learning Algorithms"**, conducted at **Vellore Institute of Technology (VIT), India**.
 
-The project, **PyroDetect**, introduces a novel AI-powered wildfire detection system leveraging **Convolutional Neural Networks (CNNs) and Ensemble Learning** to improve fire detection accuracy and reduce false alarms. The model achieves a **high accuracy rate** using a curated dataset of high-resolution aerial and ground images. This repository outlines the methodology, datasets, and results but does **not** share the source code.
+The project, **PyroDetect**, introduces a novel AI-powered wildfire detection system leveraging **Convolutional Neural Networks (CNNs)** to improve fire detection accuracy and reduce false alarms. The model achieves a **high accuracy rate** using a curated dataset of high-resolution aerial and ground images. This repository outlines the methodology, datasets, and results.
 
 ---
 
@@ -43,7 +43,6 @@ The **PyroDetect** model integrates:
    - Image resizing, brightness adjustments, and noise reduction to enhance robustness.
    - Normalization and augmentation techniques to improve model generalization across diverse wildfire conditions.
 
-
 ### Dataset
 
 **PyroDetect** utilizes a newly curated dataset of **2,700 high-resolution images**, sourced from:
@@ -78,7 +77,6 @@ The **PyroDetect** model integrates:
   - **ROC Curve:** AUC = **0.90**
   - **Precision-Recall Curve:** AUC = **0.99**
 
-
 ### Visuals
 
 1. **Confusion Matrix**
@@ -86,59 +84,32 @@ The **PyroDetect** model integrates:
 
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png" width="500"/>
 
-3. **Training Accuracy**
+2. **Training Accuracy**
    The PyroDetect model's training accuracy started at 50% and steadily increased, reaching 98% by the final epoch.
 
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png" width="500"/>
 
-5. **Training Loss**
+3. **Training Loss**
    The PyroDetect model's training loss started at 1.6 and gradually decreased to 0.07, indicating effective learning during training. 
 
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png" width="500"/>
 
-7. **ROC Curve**
+4. **ROC Curve**
    The ROC curve, with an AUC of 0.993, underscores the model's ability to accurately distinguish between wildfire and non-wildfire images.
 
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png" width="500"/>
 
-9. **Precision-Recall Curve**
+5. **Precision-Recall Curve**
    The precision-recall curve, with an area of 0.99, showcases the model's strong capability to maintain high precision and recall across different thresholds.
 
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png" width="500"/>
 
-
 ---
 
-## How to Use
+## Docker Implementation
 
-You can view and download the source code for PyroDetect from our GitHub repository:
+To deploy **PyroDetect** using Docker, follow these steps:
 
-🔗 **[PyroDetect Source Code](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**
-
-1. Visit the repository to explore the model implementation.
-2. Clone the repository to your local system:
+1. Pull the Docker image:
    ```bash
-   git clone https://github.com/manvendrasingh09/PyroDetect.git
-
-
----
-
-## Acknowledgments
-
-We would like to express our sincere gratitude to:
-- **VIT University** for providing the platform and resources to conduct this research.
-- **Our mentors and advisors** for their continuous guidance and constructive feedback throughout the project.
-- **Contributors and researchers** in the field of wildfire detection whose work inspired and informed our approach.
-- **The open-source community** for providing valuable tools and frameworks that enabled the development of this model.
-
----
-
-## License
-
-This project is released for academic and research purposes only.  
-You can view and access the source code from our repository, but any commercial use or distribution requires prior permission.  
-
-🔗 **[PyroDetect Source Code](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**  
-
-For inquiries regarding licensing and usage, please contact the authors.
-
+   docker pull manvendrasingh09/pyrodetect
