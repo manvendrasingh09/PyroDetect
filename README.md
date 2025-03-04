@@ -100,7 +100,10 @@ The **PyroDetect** model integrates:
    ![Training Loss](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Training%20Loss.png)
 
 4. **ROC Curve**  
-   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC%20Curve.png)
+   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png)
+
+5. **Precision-Recall Curve**  
+   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png)
 
 ---
 
