@@ -1,4 +1,4 @@
-# <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.jpeg" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Wildfire Detection using Deep Learning
+# <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Wildfire Detection using Deep Learning
 
 
 ## 📌 Overview
