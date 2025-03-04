@@ -109,13 +109,10 @@ Our model achieved:
 ## 📜 Contributors
 
 - **Manvendra Singh**
-
   [LinkedIn](https://in.linkedin.com/in/manvendrasingh09) | [Github](https://github.com/manvendrasingh09) | [Website](https://manvendrasingh.dev/)
 - **Kshitiz Bhargava**
-
   [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava) | [Github](https://github.com/Kshitiz-b) | [Website](https://kshitizbhargava.com/)
 - **Abeer Mathur**
-
   [LinkedIn](https://www.linkedin.com/in/abeermathur/) | [Github](https://github.com/AbeerMathur) | [Website](http://abeermathur.in/)
 
 ---
