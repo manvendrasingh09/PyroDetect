@@ -11,11 +11,11 @@ The project, **PyroDetect**, introduces a novel AI-powered wildfire detection sy
 ## Authors
 
 - **Manvendra Singh** [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
-- **Kshitiz Bhargava** [LinkedIn](https://in.linkedin.com/in/kshitiz-b)
+- **Kshitiz Bhargava** [LinkedIn](https://in.linkedin.com/in/kshitizbhargava)
 - **Abeer Mathur** [LinkedIn](https://in.linkedin.com/in/abeermathur)
 
 > Affiliation: Department of Software Systems, School of Computer Science & Engineering, Vellore Institute of Technology, India.  
-> Contact Emails: m.s.jaunpur@gmail.com, kshitizbhargava2626@gmail.com, abeermathur17@gmail.com
+> Contact Emails: m.s.jaunpur@gmail.com, kshitizb168@gmail.com, abeermathur17@gmail.com
 
 ---
 
