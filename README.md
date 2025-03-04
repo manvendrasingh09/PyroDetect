@@ -1,6 +1,5 @@
 # <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.png" alt="PyroDetect Logo" width="30" style="vertical-align: middle;"/> PyroDetect: Wildfire Detection using Deep Learning
 
-
 ## 📌 Overview
 
 PyroDetect is an advanced wildfire detection system that leverages deep learning techniques to improve early fire detection accuracy and reduce false positives. The system is designed to process high-resolution aerial and ground-based imagery and can be integrated into real-time monitoring systems.
@@ -108,12 +107,14 @@ Our model achieved:
 
 ## 📜 Contributors
 
-- **Manvendra Singh**
-  [LinkedIn](https://in.linkedin.com/in/manvendrasingh09) | [Github](https://github.com/manvendrasingh09) | [Website](https://manvendrasingh.dev/)
-- **Kshitiz Bhargava**
-  [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava) | [Github](https://github.com/Kshitiz-b) | [Website](https://kshitizbhargava.com/)
-- **Abeer Mathur**
-  [LinkedIn](https://www.linkedin.com/in/abeermathur/) | [Github](https://github.com/AbeerMathur) | [Website](http://abeermathur.in/)
+- **Manvendra Singh**  
+  [LinkedIn](https://in.linkedin.com/in/manvendrasingh09) | [Github](https://github.com/manvendrasingh09) | [Website](https://manvendrasingh.dev/)  
+- **Kshitiz Bhargava**  
+  [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava) | [Github](https://github.com/Kshitiz-b) | [Website](https://kshitizbhargava.com/)  
+- **Abeer Mathur**  
+  [LinkedIn](https://www.linkedin.com/in/abeermathur/) | [Github](https://github.com/AbeerMathur) | [Website](http://abeermathur.in/)  
+
+📘 Guide: **Kathiravan S**
 
 ---
 
