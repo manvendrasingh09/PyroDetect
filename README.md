@@ -111,21 +111,34 @@ The **PyroDetect** model integrates:
 
 ## How to Use
 
-1. Visit [PyroDetect](https://pyrodetect.site) to access the application.
-2. Upload an image of a suspected wildfire.
-3. Receive a real-time classification result.
+You can view and download the source code for PyroDetect from our GitHub repository:
+
+🔗 **[PyroDetect Source Code](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**
+
+1. Visit the repository to explore the model implementation.
+2. Clone the repository to your local system:
+   ```bash
+   git clone https://github.com/manvendrasingh09/PyroDetect.git
+
 
 ---
 
 ## Acknowledgments
 
-We would like to extend our gratitude to:
-- **VIT University** for their support.
-- **Mentors and colleagues** for their valuable insights and guidance.
+We would like to express our sincere gratitude to:
+- **VIT University** for providing the platform and resources to conduct this research.
+- **Our mentors and advisors** for their continuous guidance and constructive feedback throughout the project.
+- **Contributors and researchers** in the field of wildfire detection whose work inspired and informed our approach.
+- **The open-source community** for providing valuable tools and frameworks that enabled the development of this model.
 
 ---
 
 ## License
 
-This repository is for academic reference only.  
-The source code for PyroDetect is proprietary and **not included** in this repository.
+This project is released for academic and research purposes only.  
+You can view and access the source code from our repository, but any commercial use or distribution requires prior permission.  
+
+🔗 **[PyroDetect Source Code](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**  
+
+For inquiries regarding licensing and usage, please contact the authors.
+
