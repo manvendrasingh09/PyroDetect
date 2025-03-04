@@ -108,12 +108,12 @@ Our model achieved:
 
 ## 📜 Contributors
 
-👨‍💻 **Manvendra Singh** 
-    [LinkedIn](https://in.linkedin.com/in/manvendrasingh09) 
-👨‍💻 **Kshitiz Bhargava**
+- **Manvendra Singh**
+    [LinkedIn](https://in.linkedin.com/in/manvendrasingh09)
+- **Kshitiz Bhargava**
     [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava)
-👨‍💻 **Abeer Mathur**
-    [LinkedIn](https://in.linkedin.com/in/abeermathur)
+- **Abeer Mathur**
+    [LinkedIn](https://www.linkedin.com/in/abeermathur/)
 
 ---
 
