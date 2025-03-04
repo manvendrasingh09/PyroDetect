@@ -21,19 +21,12 @@ The project, **PyroDetect**, introduces a novel AI-powered wildfire detection sy
 
 ## Project Highlights
 
-- **Problem Addressed:** The increasing frequency and intensity of wildfires demand faster, more accurate detection methods. Current techniques suffer from slow response times and high false positives.
-- **Solution Provided:** PyroDetect introduces an advanced AI-driven detection model integrating:
-  - **Custom CNN Architecture** - Tailored for wildfire image classification.
-  - **Ensemble Learning** - Combining multiple CNNs for higher accuracy.
-  - **Data Augmentation** - Enhancing model generalization with diverse fire conditions.
-- **Key Achievement:** PyroDetect achieves **high precision and recall**, outperforming traditional fire detection methods.
-
----
-
-## Website & Application
-
-Access the **PyroDetect** application and website here: [PyroDetect](https://pyrodetect.site)  
-From this website, users can explore the system and its wildfire detection features.
+- **Problem Addressed:** The increasing occurrence and severity of wildfires demand a faster, more accurate, and scalable detection system. Existing satellite-based and sensor-dependent methods suffer from delayed detection, limited coverage, and high false positives, making them inadequate for real-time wildfire monitoring.
+- **Solution Provided:** PyroDetect employs a deep learning-based detection approach utilizing:
+  - **Custom CNN Architecture** - A convolutional neural network optimized for wildfire detection, with layers specifically designed to extract fire-related features effectively.
+  - **Optimized Training Strategy** - Implementing Adam optimizer, batch normalization, and dropout layers to improve generalization and prevent overfitting.  
+  - **Data Augmentation** - Utilizing image rescaling, normalization, and augmentation to enhance model performance across diverse wildfire conditions.
+- **Key Achievement:** PyroDetect achieves high accuracy, precision, and recall, significantly improving upon traditional fire detection methods by reducing false alarms and enabling more reliable early warnings.
 
 ---
 
@@ -45,10 +38,11 @@ The **PyroDetect** model integrates:
 1. **Custom Convolutional Neural Network (CNN):**
    - Designed for accurate wildfire detection using deep feature extraction.
    - Includes activation functions, batch normalization, and dropout layers for optimized learning.
-2. **Ensemble Learning:**
-   - Combines multiple CNN models for improved classification accuracy.
-3. **Dataset Augmentation:**
+   
+2. **Dataset Augmentation:**
    - Image resizing, brightness adjustments, and noise reduction to enhance robustness.
+   - Normalization and augmentation techniques to improve model generalization across diverse wildfire conditions.
+
 
 ### Dataset
 
