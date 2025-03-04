@@ -10,12 +10,9 @@ The project, **PyroDetect**, introduces a novel AI-powered wildfire detection sy
 
 ## Authors
 
-- **Manvendra Singh**  
-  [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
-- **Kshitiz Bhargava**  
-  [LinkedIn](https://in.linkedin.com/in/kshitiz-b)
-- **Abeer Mathur**  
-  [LinkedIn](https://in.linkedin.com/in/abeermathur)
+- **Manvendra Singh** [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
+- **Kshitiz Bhargava** [LinkedIn](https://in.linkedin.com/in/kshitiz-b)
+- **Abeer Mathur** [LinkedIn](https://in.linkedin.com/in/abeermathur)
 
 > Affiliation: Department of Software Systems, School of Computer Science & Engineering, Vellore Institute of Technology, India.  
 > Contact Emails: m.s.jaunpur@gmail.com, kshitizbhargava2626@gmail.com, abeermathur17@gmail.com
@@ -90,19 +87,24 @@ The **PyroDetect** model integrates:
 
 ### Visuals
 
-1. **Confusion Matrix**  
+1. **Confusion Matrix**
+   The confusion matrix highlights the high number of true positives and true negatives, demonstrating the model's reliability in wildfire detection.
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png" width="500"/>
 
-2. **Training Accuracy**  
+2. **Training Accuracy**
+   The PyroDetect model's training accuracy started at 50% and steadily increased, reaching 98% by the final epoch.
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png" width="500"/>
 
-3. **Training Loss**  
+3. **Training Loss**
+   The PyroDetect model's training loss started at 1.6 and gradually decreased to 0.07, indicating effective learning during training. 
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png" width="500"/>
 
-4. **ROC Curve**  
+4. **ROC Curve**
+   The ROC curve, with an AUC of 0.993, underscores the model's ability to accurately distinguish between wildfire and non-wildfire images.
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png" width="500"/>
 
-5. **Precision-Recall Curve**  
+5. **Precision-Recall Curve**
+   The precision-recall curve, with an area of 0.99, showcases the model's strong capability to maintain high precision and recall across different thresholds.
    <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png" width="500"/>
 
 
