@@ -91,19 +91,19 @@ The **PyroDetect** model integrates:
 ### Visuals
 
 1. **Confusion Matrix**  
-   ![Confusion Matrix](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png)
+   ![Confusion Matrix](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png){width=500}
 
 2. **Training Accuracy**  
-   ![Training Accuracy](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png)
+   ![Training Accuracy](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png){width=500}
 
 3. **Training Loss**  
-   ![Training Loss](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png)
+   ![Training Loss](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png){width=500}
 
 4. **ROC Curve**  
-   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png)
+   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png){width=500}
 
 5. **Precision-Recall Curve**  
-   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png)
+   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png){width=500}
 
 ---
 
@@ -127,26 +127,3 @@ We would like to extend our gratitude to:
 
 This repository is for academic reference only.  
 The source code for PyroDetect is proprietary and **not included** in this repository.
-
----
-
-## Citation
-
-If you use this work in your research, please cite it as follows:
-
-### APA
-Singh, M., Bhargava, K., & Mathur, A. (2024). *Enhanced Wildfire Detection with Advanced Deep Learning Algorithms.*
-
-### IEEE
-M. Singh, K. Bhargava, and A. Mathur, "Enhanced Wildfire Detection with Advanced Deep Learning Algorithms," *VIT University Research*, 2024.
-
-### BibTeX
-```bibtex
-@inproceedings{Singh2024,
-  author    = {Singh, Manvendra and Bhargava, Kshitiz and Mathur, Abeer},
-  title     = {Enhanced Wildfire Detection with Advanced Deep Learning Algorithms},
-  booktitle = {VIT University Research},
-  year      = {2024},
-}
-```
-
