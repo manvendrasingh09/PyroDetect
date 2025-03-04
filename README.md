@@ -94,10 +94,10 @@ The **PyroDetect** model integrates:
    ![Confusion Matrix](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png)
 
 2. **Training Accuracy**  
-   ![Training Accuracy](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Training%20Accuracy.png)
+   ![Training Accuracy](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png)
 
 3. **Training Loss**  
-   ![Training Loss](https://github.com/MAKnova/PyroDetect/blob/main/Resources/Training%20Loss.png)
+   ![Training Loss](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png)
 
 4. **ROC Curve**  
    ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png)
