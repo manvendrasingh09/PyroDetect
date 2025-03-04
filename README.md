@@ -64,20 +64,20 @@ The **PyroDetect** model integrates:
 ## Results
 
 ### Model Performance
-| Model | Accuracy | Precision | Recall |
-|--------|----------|-----------|--------|
-| Custom CNN | 95.6% | 94.2% | 96.1% |
-| Ensemble Learning | 97.3% | 96.8% | 97.9% |
+| Model       | Accuracy | Precision | Recall |
+|------------|----------|-----------|--------|
+| Custom CNN | 84.15%    | 87.80%    | 86.06% |
 
 ### Evaluation Metrics
 - **Confusion Matrix:**
-  - True Positives: **2631**
-  - True Negatives: **2678**
-  - False Positives: **42**
-  - False Negatives: **49**
+  - True Positives (TP): **216**
+  - True Negatives (TN): **129**
+  - False Positives (FP): **30**
+  - False Negatives (FN): **35**
 - **Performance Graphs:**
-  - **ROC Curve:** AUC = **0.993**
-  - **Precision-Recall Curve:** AUC = **0.990**
+  - **ROC Curve:** AUC = **0.90**
+  - **Precision-Recall Curve:** AUC = **0.99**
+
 
 ### Visuals
 
