@@ -91,19 +91,20 @@ The **PyroDetect** model integrates:
 ### Visuals
 
 1. **Confusion Matrix**  
-   ![Confusion Matrix](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png){width=200}
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Confusion%20Matrix.png" width="200"/>
 
 2. **Training Accuracy**  
-   ![Training Accuracy](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png){width=100}
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Accuracy.png" width="100"/>
 
 3. **Training Loss**  
-   ![Training Loss](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png){width=200}
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Training%20Loss.png" width="200"/>
 
 4. **ROC Curve**  
-   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png){width=500}
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/ROC.png" width="500"/>
 
 5. **Precision-Recall Curve**  
-   ![ROC Curve](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png){width=500}
+   <img src="https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/Recall.png" width="500"/>
+
 
 ---
 
