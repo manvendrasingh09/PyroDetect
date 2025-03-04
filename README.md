@@ -113,3 +113,25 @@ To deploy **PyroDetect** using Docker, follow these steps:
 1. Pull the Docker image:
    ```bash
    docker pull manvendrasingh09/pyrodetect
+
+---
+
+## Acknowledgments
+
+We would like to express our sincere gratitude to:
+- **VIT University** for providing the platform and resources to conduct this research.
+- **Our mentors and advisors** for their continuous guidance and constructive feedback throughout the project.
+- **Contributors and researchers** in the field of wildfire detection whose work inspired and informed our approach.
+- **The open-source community** for providing valuable tools and frameworks that enabled the development of this model.
+
+---
+
+## License
+
+This project is released for academic and research purposes only.  
+You can view and access the source code from our repository, but any commercial use or distribution requires prior permission.  
+
+🔗 **[PyroDetect Source Code](https://github.com/manvendrasingh09/PyroDetect/blob/main/Resources/PyroDetect.ipynb)**  
+
+For inquiries regarding licensing and usage, please contact the authors.
+
