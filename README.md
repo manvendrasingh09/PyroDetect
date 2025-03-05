@@ -8,11 +8,13 @@ The project, **PyroDetect**, introduces a novel AI-powered wildfire detection sy
 
 ---
 
-## Authors
+## Contributors
 
-- **Manvendra Singh** [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
-- **Kshitiz Bhargava** [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava)
-- **Abeer Mathur** [LinkedIn](https://in.linkedin.com/in/abeermathur)
+👨‍💻 **Manvendra Singh** - [Linkedin](https://www.linkedin.com/in/manvendrasingh)  [Github](https://github.com/manvendrasingh09)
+
+👨‍💻 **Kshitiz Bhargava** - [Linkedin](https://www.linkedin.com/in/kshitizbhargava)  [Github](https://github.com/Kshitiz-b)
+
+👨‍💻 **Abeer Mathur** - [Linkedin](https://www.linkedin.com/in/abeermathur)  [Github](https://github.com/AbeerMathur)
 
 > Affiliation: Department of Software Systems, School of Computer Science & Engineering, Vellore Institute of Technology, India.  
 > Contact Emails: m.s.jaunpur@gmail.com, kshitizb168@gmail.com, abeermathur17@gmail.com
@@ -106,13 +108,40 @@ The **PyroDetect** model integrates:
 
 ---
 
-## [Docker Implementation](https://hub.docker.com/r/kshitizb/pyrodetect)
+## Run Locally with [Docker](https://hub.docker.com/r/kshitizb/pyrodetect)
 
-To deploy **PyroDetect** using Docker, follow these steps:
+### **1. Pull the Image**
+```sh
+docker pull kshitizb/pyrodetect
+```
 
-1. Pull the Docker image:
-   ```bash
-   docker pull manvendrasingh09/pyrodetect
+### **2. Run the Container**
+```sh
+docker run -p 8020:8020 kshitizb/pyrodetect
+```
+Then open: **http://localhost:8020/**
+
+### **3. Access the API**
+Once the container is running, open a browser and go to:
+
+```
+http://<your-server-ip>:8020
+```
+
+Or test via **FastAPI interactive docs**:
+
+```
+http://<your-server-ip>:8020/docs
+```
+
+---
+
+## **Endpoints**
+| Method  | Endpoint       | Description |
+|---------|---------------|-------------|
+| **GET** | `/`           | Homepage - Image Upload Form |
+| **POST** | `/upload/`   | Upload and classify an image |
+
 
 ---
 
